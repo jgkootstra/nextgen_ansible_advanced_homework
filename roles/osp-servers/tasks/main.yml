@@ -1,3 +1,9 @@
 ---
 
 # tasks file for osp.servers
+- include_tasks: manage-flavors.yml
+- include_tasks: manage-images.yml
+- include_tasks: manage-keypairs.yml
+- include_tasks: manage-networks.yml
+- include_tasks: manage-security-groups.yml
+- include_tasks: manage-servers.yml
